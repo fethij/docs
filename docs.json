@@ -7,16 +7,25 @@
     "light": "#07C983",
     "dark": "#15803D"
   },
+  "favicon": "/favicon.svg",
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides"
+        "tab": "Organization",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "index"
+            ]
+          }
+        ]
       }
     ]
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "/favicon.svg",
+    "dark": "/favicon.svg"
   },
   "navbar": {
     "links": [
