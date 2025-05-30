@@ -8,6 +8,10 @@
     "dark": "#15803D"
   },
   "favicon": "/favicon.svg",
+  "appearance": {
+    "default": "system",
+    "strict": false
+  },
   "navigation": {
     "tabs": [
       {
@@ -28,12 +32,11 @@
     "dark": "/favicon.svg"
   },
   "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "mailto:info@tewelde.org"
-      }
-    ]
+    "primary": {
+      "type": "button",
+      "label": "Contact",
+      "href": "mailto:info@tewelde.org"
+    }
   },
   "footer": {
     "socials": {
@@ -41,3 +44,4 @@
     }
   }
 }
+
